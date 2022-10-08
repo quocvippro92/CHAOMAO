@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none !important;
+}
+
+.app {
+    background-color: #fc5c58;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #ccc;
+}
+
+.navbar-logo>img {
+    background-color: white;
+}
+
+a.nav-link {
+    margin-right: 2px;
+    border: 1px solid #ccc;
+    color: white;
+    border-radius: 4px;
+}
+
+/* content-------- */
+.content {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.content-right {
+    width: 100%;
+    height: 400px;
+}
+
+.col-md-8.col-sm-12.content-left {
+    padding: 0;
+}
+
+.content-left>.card {
+    background-color: #fc5c58;
+    border: none;
+    color: white;
+}
+
+h3.card-title {
+    font-weight: 700;
+}
+
+p.card-text {
+    width: 100%;
+    height: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+a.card-link {
+
+    padding: 10px;
+    color: #fc95be;
+    border-radius: 5px;
+
+}
+
+.content-right {
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.content-right>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* section----------- */
+.section {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.section-img {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.section-img>img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.text-section {
+    position: absolute;
+    top: 150px;
+    color: white;
+    left: 0;
+    text-align: center;
+}
+
+.text-section>p {
+    font-size: 10px;
+}
+
+.text-section>i {
+    font-size: 100px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+}
+
+
+
+/* section-text */
+.background-card {
+    width: 100%;
+    height: 900px!important;
+    background-color: #fc5c58 !important;
+    border: 2px solid #ccc !important;
+}
+
+.card-body>img {
+    width: 80%;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.text {
+    padding: 0px 30px;
+    color: white;
+}
+
+.text-title {
+    text-align: center;
+    color: white;
+}
+
+button.btn.btn-success {
+    margin: 0 0 20px 20px;
+}
+/* footer-slider------ */
+.slider{
+    width: 100%;
+    height: 500px;
+}
+.slider-item{
+    position: relative; 
+}
+/* .slider-item>img{
+    width: 100%;
+    height: auto;
+    display: block;
+} */
+.owl-prev{
+    position: absolute;
+    font-size: 50px!important;
+    left: 0;
+    top: 40%;
+}
+.owl-next{
+    position: absolute; 
+    font-size: 50px!important;
+    right: 0;
+    top: 40%;
+}
+button.owl-next,
+button.owl-prev{
+    background-color: none;
+    background: none !important;
+}
+.owl-dots {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
